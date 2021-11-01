@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ctcdecode"
+version = "0.1.0"
+description = "PyTorch CTC Decoder bindings"
+authors = ["Ryan Leary"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.6.2,<=3.10"
+torch = "^1.10.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
